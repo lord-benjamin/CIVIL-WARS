@@ -1,0 +1,59 @@
+/// *******************************************************************************************************
+/// CHALLENGE : CODEFEED
+/// CHALLENGE PROVIDER : IOSD, DTU
+/// CHALLENGE ACCEPTER : TEAM DEBUGGERS
+/// TEAM MEMBERS : DHRUV ARORA (2K21/A3/62), COMPUTER ENGINEERING BRANCH
+///                DEVESH MITTAL (2K21/A3/59), COMPUTER ENGINEERING BRANCH
+/// THEME OF PROJECT : GAMES
+/// TECHNOLOGY : FRONTEND INTERFACE, APP DEVELOPMENT USING FLUTTER/DART
+///*******************************************************************************************************/
+
+// ignore_for_file: prefer_const_constructors
+
+import 'package:civil_wars/info_page_manipulation/info_content.dart';
+import 'package:civil_wars/screens/choose_your_warrior.dart';
+import 'package:civil_wars/screens/home.dart';
+import 'package:flutter/material.dart';
+import 'package:civil_wars/info_page_manipulation/index_file.dart';
+import 'package:civil_wars/components/warrior_card.dart';
+import 'package:civil_wars/screens/amara_info.dart';
+import 'package:civil_wars/screens/brina_info.dart';
+import 'package:civil_wars/screens/bulruk_info.dart';
+import 'package:civil_wars/screens/galdor_info.dart';
+import 'package:civil_wars/screens/igor_info.dart';
+import 'package:civil_wars/screens/kyla_info.dart';
+import 'package:civil_wars/screens/lago_info.dart';
+import 'package:civil_wars/screens/misi_info.dart';
+import 'package:civil_wars/screens/rorik_info.dart';
+import 'package:civil_wars/screens/zaria_info.dart';
+
+void main() {
+  runApp(CivilWars());
+}
+
+class CivilWars extends StatelessWidget {
+  InfoContent info = InfoContent();
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Civil Wars",
+      initialRoute: "/homePage",
+      routes: {
+        "/homePage": (context) => HomePage(),
+        "/chooseYourWarrior": (context) => ChooseYourWarrior(),
+        "/amaraInfo": (context) => AmaraInfo(),
+        "/brinaInfo": (context) => BrinaInfo(),
+        "/bulrukInfo": (context) => BulrukInfo(),
+        "/galdorInfo": (context) => GaldorInfo(),
+        "/igorInfo": (context) => IgorInfo(),
+        "/kylaInfo": (context) => KylaInfo(),
+        "/lagoInfo": (context) => LagoInfo(),
+        "/misiInfo": (context) => MisiInfo(),
+        "/rorikInfo": (context) => RorikInfo(),
+        "/zariaInfo": (context) => ZariaInfo(),
+      },
+    );
+  }
+}
