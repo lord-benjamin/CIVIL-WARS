@@ -1,13 +1,3 @@
-/// *******************************************************************************************************
-/// CHALLENGE : CODEFEED
-/// CHALLENGE PROVIDER : IOSD, DTU
-/// CHALLENGE ACCEPTER : TEAM DEBUGGERS
-/// TEAM MEMBERS : DHRUV ARORA (2K21/A3/62), COMPUTER ENGINEERING BRANCH
-///                DEVESH MITTAL (2K21/A3/59), COMPUTER ENGINEERING BRANCH
-/// THEME OF PROJECT : GAMES
-/// TECHNOLOGY : FRONTEND INTERFACE, APP DEVELOPMENT USING FLUTTER/DART
-///*******************************************************************************************************/
-
 // ignore_for_file: prefer_const_constructors
 
 import 'package:civil_wars/info_page_manipulation/info_content.dart';
