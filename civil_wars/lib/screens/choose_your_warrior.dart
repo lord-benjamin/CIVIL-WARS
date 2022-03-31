@@ -16,7 +16,7 @@ class ChooseYourWarrior extends StatefulWidget {
 }
 
 class _ChooseYourWarriorState extends State<ChooseYourWarrior> {
-  InfoContent info = InfoContent();
+  // InfoContent info = InfoContent();
 
   @override
   Widget build(BuildContext context) {
