@@ -22,7 +22,7 @@ void main() {
 }
 
 class CivilWars extends StatelessWidget {
-  InfoContent info = InfoContent();
+  // InfoContent info = InfoContent();
 
   @override
   Widget build(BuildContext context) {
